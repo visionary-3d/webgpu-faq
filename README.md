@@ -19,5 +19,15 @@ Images are always better than words:
 Yes. You can write C++ or Rust code to create native applications with WebGPU.
 However support for some browsers and specially mobile browsers is Work In Progress at the moment.
 
+### What exactly are the advantages of WebGPU vs ThreeJS + WebGL ? 
+
+1. Biggest one in my opinion is compute shaders. Compute shaders allow you to run you shader in parallel on the gpu but they're way more flexible and more general purposed than VS and FS shaders.
+Before, you could do what you can do in compute shaders in normal Fragment shaders, but that was much more difficult to do. So ease of use is a key factor.
+
+2. WegGL is an ugly mess. WebGPU is a fantastic upgrade and has a way simpler API.
+
+3. WebGPU is built on top of Vulkan ( for windows ) and Metal ( for mac ) I beleive.
+Vulkan has some really nice features for Raytracing as far as I'm aware of and so, we're going to have a RayTracingPipeline further down the line.
+
 ### How much easier would it be to start with the framework like Babylon.js instead of trying to understand the WebGPU ?
 It's not that different at the moment. And I highly recommend learning WebGPU itself.
