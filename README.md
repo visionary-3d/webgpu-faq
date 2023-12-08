@@ -1,6 +1,7 @@
 # WebGPU :: Javascript at the speed of Light 
 
 This is the FAQ Readme file for the video down below.
+**Corrections of mistakes in the video is pinned in the comments section of the video.**
 
 ## https://youtu.be/oAwlk0j5RUM
 [![WebGPU Compute Shaders Introduction](https://github.com/visionary-3d/webgpu-faq/assets/64514807/eb3b86ce-5f24-4a3a-a03c-e7aad86cf6c5)](https://youtu.be/oAwlk0j5RUM)
