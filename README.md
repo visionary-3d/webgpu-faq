@@ -1,6 +1,7 @@
 # WebGPU :: Javascript at the speed of Light 
 
 This is the FAQ Readme file for the video down below.
+
 **Corrections of mistakes in the video is pinned in the comments section of the video.**
 
 ## https://youtu.be/oAwlk0j5RUM
