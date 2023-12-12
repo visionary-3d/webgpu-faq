@@ -15,6 +15,15 @@ Images are always better than words:
 
 [Capturing the WebGPU ecosystem Article](https://developer.chrome.com/blog/webgpu-ecosystem/)
 
+### How am I measuring gpu compute time ?
+I'm using a special flag in chrome which allows me to use some timer tools:
+
+```--enable-dawn-features=allow_unsafe_apis```
+
+You can learn more about how to use this flag here:
+[GPU Timer Tool For WebGPU](
+https://matrix.to/#/!MFogdGJfnZLrDmgkBN:matrix.org/$D342y3gRpy3EndUMK1nzbL7Qwvn6wozusB6wCROTuZs?via=matrix.org&via=mozilla.org&via=matrix.nrp-nautilus.io)
+
 ### Can WebGPU be used for native mobile or desktop apps?
 Yes. You can write C++ or Rust code to create native applications with WebGPU.
 However support for some browsers and specially mobile browsers is Work In Progress at the moment.
